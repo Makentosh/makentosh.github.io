@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../Mama_bakery/css/normalize.css">
+    <link rel="stylesheet" href="../Mama_bakery/css/style.css">
+    <link rel="stylesheet" href="../Mama_bakery/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,800&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="./css/animate.css">
+    <title>Mama Bakery</title>
+</head>
+<body>
+    <section class="main_section">
+        <div class="container">
+                        <header class="header"> 
+                                <div class="logo animated fadeInLeft">
+                                    <img src="../Mama_bakery/img/logo.png" alt="Mama Bakery" class="bakery">
+                                    <div class="logo_text">
+                                        <p ><span class="mom">МАМИНА БУЛОЧКА</span> <span class="peki">Пекарня</span></p>
+                                    </div>
+                                </div>
+                                <nav>
+                                    <ul class="menu">
+                                        <li> <a href="#">Главная</a></li>
+                                        <li> <a href="#">Изделия</a></li>
+                                        <li> <a href="#">Отзывы булочников</a></li>
+                                        <li> <a href="#">Акции</a></li>
+                                        <li> <a href="#">Контакты</a></li>
+                                    </ul>
+                                </nav>
+                                        <p class="phone_number">
+                                            <i class="fa fa-phone-square fa-1x" aria-hidden="true">
+
+                                            </i>
+                                            +7 (495) 342-53-13
+                                        </p>
+                                            <div class="card">
+                                                <i class="fa fa-cart-arrow-down fa-4x" aria-hidden="true">
+                                                </i>
+                                                <p> Итого:
+                                                    <span class="money">7598
+                                                            <i class="fa fa-rub" aria-hidden="true">
+                                                                </i>
+                                                             </span>
+                                                </p>
+                                                <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
+                                            </div>
+                        </header>
+                        <hr>
+         </div> 
+        <div class="slidebar animated fadeInDownBig">
+                <div class="slider">
+                        <div class="item">
+                            <img src="img/cake.jpg" alt="Первый слайд">
+                            <div class="slideText"><h1>ЗВГОЛОВОК АКЦИИ <br>В ДВЕ СТРОКИ ИДЕТ ТУТ</h1></div>
+                            <p class="lorem_text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 At nemo architecto optio. Sunt nulla aliquid impedit
+                                  asperiores ea natus, alias odio nobis, assumenda iusto ex. 
+                                  Ducimus aut fuga ut nobis.
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil placeat officiis
+                                   quo omnis consequuntur, nisi nobis ratione corrupti est? Ipsum provident
+                                    rerum aspernatur distinctio assumenda nulla aliquid quibusdam, maxime error!
+                            </p>
+                            <a href="#" class="btn">Заказать!</a>
+                        </div>
+                            <div class="item">
+                                <img src="img/cake.jpg" alt="Второй слайд">
+                                <div class="slideText">Заголовок слайда 2</div>
+                            </div>
+                            <div class="item">
+                                <img src="img/cake.jpg" alt="Третий слайд">
+                                <div class="slideText">Заголовок слайда 3</div>
+                            </div>
+                            <a class="prev" onclick="minusSlide()">&#10094;</a>
+                            <a class="next" onclick="plusSlide()">&#10095;</a>
+                        </div>
+                        <div class="slider-dots">
+                            <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+                            <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+                            <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+                        </div>
+        </div>
+    </section>
+        <section class="bulks">
+                <h2>Горячие булочки</h2>
+                <div class="donuts_menu">
+                        <div class="range">
+                                <img src="..//Mama_bakery/img/Donuts.jpg" alt="Булочки" class="bulks_img">
+                                <h3>НАЗВАНИЕ <br>БУЛОЧКИ В ДВА РЯДА</h3>
+                                <a href="#" class="btn_buy"> <i class="fa fa-cart-plus" aria-hidden="true"></i> В Корзину</a>
+                                <div class="price">
+                                    <p>450 р.</p>
+                                </div>
+                            </div>
+                            <div class="range">
+                                    <img src="..//Mama_bakery/img/Donuts.jpg" alt="Булочки" class="bulks_img">
+                                    <h3>НАЗВАНИЕ <br>БУЛОЧКИ В ДВА РЯДА</h3>
+                                    <a href="#" class="btn_buy"> <i class="fa fa-cart-plus" aria-hidden="true"></i> В Корзину</a>
+                                    <div class="price">
+                                        <p>450 р.</p>
+                                    </div>
+                                </div>
+                                <div class="range">
+                                        <img src="..//Mama_bakery/img/Donuts.jpg" alt="Булочки" class="bulks_img">
+                                        <h3>НАЗВАНИЕ <br>БУЛОЧКИ В ДВА РЯДА</h3>
+                                        <a href="#" class="btn_buy"> <i class="fa fa-cart-plus" aria-hidden="true"></i> В Корзину</a>
+                                        <div class="price">
+                                            <p>450 р.</p>
+                                        </div>
+                                    </div>
+                                    <div class="range">
+                                            <img src="..//Mama_bakery/img/Donuts.jpg" alt="Булочки" class="bulks_img">
+                                            <h3>НАЗВАНИЕ <br>БУЛОЧКИ В ДВА РЯДА</h3>
+                                            <a href="#" class="btn_buy"> <i class="fa fa-cart-plus" aria-hidden="true"></i> В Корзину</a>
+                                            <div class="price">
+                                                <p>450 р.</p>
+                                            </div>
+                                        </div>
+                </div> 
+                <div class="donuts_menu double">
+                        <div class="range">
+                                <img src="..//Mama_bakery/img/Donuts.jpg" alt="Булочки" class="bulks_img">
+                                <h3>НАЗВАНИЕ <br>БУЛОЧКИ В ДВА РЯДА</h3>
+                                <a href="#" class="btn_buy"> <i class="fa fa-cart-plus" aria-hidden="true"></i> В Корзину</a>
+                                <div class="price">
+                                    <p>450 р.</p>
+                                </div>
+                            </div>
+                            <div class="range">
+                                    <img src="..//Mama_bakery/img/Donuts.jpg" alt="Булочки" class="bulks_img">
+                                    <h3>НАЗВАНИЕ <br>БУЛОЧКИ В ДВА РЯДА</h3>
+                                    <a href="#" class="btn_buy"> <i class="fa fa-cart-plus" aria-hidden="true"></i> В Корзину</a>
+                                    <div class="price">
+                                        <p>450 р.</p>
+                                    </div>
+                                </div>
+                                <div class="range">
+                                        <img src="..//Mama_bakery/img/Donuts.jpg" alt="Булочки" class="bulks_img">
+                                        <h3>НАЗВАНИЕ <br>БУЛОЧКИ В ДВА РЯДА</h3>
+                                        <a href="#" class="btn_buy"> <i class="fa fa-cart-plus" aria-hidden="true"></i> В Корзину</a>
+                                        <div class="price">
+                                            <p>450 р.</p>
+                                        </div>
+                                    </div>
+                                    <div class="range">
+                                            <img src="..//Mama_bakery/img/Donuts.jpg" alt="Булочки" class="bulks_img">
+                                            <h3>НАЗВАНИЕ <br>БУЛОЧКИ В ДВА РЯДА</h3>
+                                            <a href="#" class="btn_buy"> <i class="fa fa-cart-plus" aria-hidden="true"></i> В Корзину</a>
+                                            <div class="price">
+                                                <p>450 р.</p>
+                                            </div>
+                                        </div>
+                </div>
+                <div class="search_panel">
+                        <a href="#" class="all_cake">
+                                <i class="fa fa-bars" aria-hidden="true"></i> 
+                                Смотреть все булочки</a>
+                                <p class="search">
+                                    Быстрий поиск по булочкам
+                                </p>
+                                <div class="inputs">
+                                        <input type="search" name ="search" class="search_btn" placeholder="Введите название булочки..." required="required">
+                                         <a href="#" class="search_icon"><i class="fa fa-search fa-2x" aria-hidden="true"></i></a>    
+                                </div>
+                </div>
+        </section>
+        <section class="our_us">
+                    <div class="our_cakes">
+                            <h2>
+                                О НАШЕЙ БУЛОЧНОЙ
+                            </h2>
+                            <div class="info">
+                                    <p >
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                             Voluptatibus hic sunt est. Molestiae veritatis placeat aliquam
+                                              amet quo totam quis vitae error saepe debitis? Veritatis unde 
+                                              nesciunt culpa repudiandae perspiciatis!
+                                              Voluptatibus hic sunt est. Molestiae veritatis placeat aliquam
+                                              amet quo totam quis vitae error saepe debitis? Veritatis unde 
+                                              nesciunt culpa repudiandae perspiciatis!
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda ipsum
+                                             neque distinctio possimus sapiente aperiam quod corporis molestiae facilis 
+                                             vero officiis alias non fugiat vitae ullam fugit, quasi necessitatibus modi
+                                              voluptate quaerat voluptates sit ex. Expedita delectus neque vitae molestias, 
+                                              minus quae, facilis, necessitatibus fugit eos non explicabo aliquam alias!
+                                        </p>
+                            </div>
+                    </div>
+                    <div class="all_us">
+                            <div class="cake_love">
+                                    <h3>
+                                        Булочки с любовью
+                                    </h3>
+                                    <ul>
+                                        <li>Первый пункт</li>
+                                        <li>Второй пункт</li>
+                                        <li>Третий пункт</li>
+                                        <li>Четвертый пункт</li>
+                                        <li>П'ятый пункт</li>
+                                    </ul>
+                                    <a href="#" class="btn_buy more"> Узнать больше</a>
+                                </div>
+                                    <div class="magazine">
+                                            <h3>
+                                                НАШЕ ПРОИЗВОДСТВО
+                                                </h3>
+                                                <div class="img">
+                                                    <img src="../Mama_bakery/img/magazine.jpg" alt="Магазин" class="img_magazine">
+                                                    <img src="../Mama_bakery/img/magazine.jpg" alt="Магазин" class="img_magazine">
+                                                    <img src="../Mama_bakery/img/magazine.jpg" alt="Магазин" class="img_magazine">
+                                                </div>
+                                                <a href="#" class="see_photo">
+                                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                    Смотреть все фото
+                                                </a>    
+                                    </div>
+                    </div>
+        </section>
+        <footer class="footer">
+                <div class="last">
+                    <div class="defend">
+                            <div class="logo">
+                                    <img src="../Mama_bakery/img/logo.png" alt="Mama Bakery" class="bakery">
+                                    <div class="logo_text two">
+                                        <p ><span class="mom">МАМИНА БУЛОЧКА</span> <span class="peki">Пекарня</span></p>
+                                    </div>
+                            </div>
+                                <p>
+                                    2016<br>
+                                    Все права защищены<br>
+                                    «Мамина булочка»
+                                </p>
+                                <img src="../Mama_bakery/img/visa_mastercard.png" alt="visa" class="visa">
+                                <img src="../Mama_bakery/img/visa_mastercard.png" alt="visa" class="visa">
+                    </div>  
+                    <div class="double_menu">
+                            <nav class="list">
+                                    <ul class="footer_menu">
+                                        <li> <a href="#">Главная</a></li>
+                                        <li> <a href="#">Изделия</a></li>
+                                        <li> <a href="#">Отзывы булочников</a></li>
+                                        <li> <a href="#">Акции</a></li>
+                                        <li> <a href="#">Контакты</a></li>
+                                    </ul>
+                                </nav>
+                                <div class="list_cake">
+                                        <ul>
+                                            <li>Круасаны</li>
+                                            <li>Бублики</li>
+                                            <li>Пончики</li>
+                                            <li>Ватрушки</li>
+                                        </ul>
+                                        <ul class="quality">
+                                            <li>Обслуживание</li>
+                                            <li>Качество</li>
+                                            <li>Интерьер</li>
+                                        </ul>
+                                </div>
+                                <div class="media">
+                                        <p>Раскажите о нас друзьям</p>
+                                       <a href="https://www.vk.com"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
+                                       <a href="https://www.facebook.com"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                                        <a href="https://www.ok.ru"><i class="fa fa-odnoklassniki-square fa-2x" aria-hidden="true"></i></a>
+                                        <a href="https://www.instagram.com"> <i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                                            <a href="https://www.twitter.com"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                                </div>          
+                    </div>
+                    <div class="contact">
+                        <h3>ОСТАЛИСЬ ВОПРОСы?</h3>
+                        <p>Заполните форму</p>
+                            <form class="form">
+                                    <input type="text" name="text" placeholder="Имя" class="input">
+                                    <input type="tel" name="telephone" placeholder="Телефон"  class="input">
+                            </form>
+                            <a href="#" class="call_me"> Передзвоните мне!</a>
+                    </div>
+                </div>
+            </footer> 
+            <script src="../Mama_bakery/js/slider.js"></script>
+</body>
+
+</html>
