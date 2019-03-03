@@ -1,0 +1,247 @@
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+
+	}
+div, p, input, button, ul, li, form, span, a {
+	box-sizing: border-box;
+	}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 37px;
+}
+
+p {
+	line-height: 1.6em;
+	font-family: 'Ubuntu', sans-serif;
+	color: #201b2d;
+
+}
+.header {
+	overflow: hidden;
+}
+.container {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgba(78,192,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 70px;
+	color: white;
+	padding-bottom: 72px;
+	}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	}
+.content {
+	padding-top: 130px;
+	width: 550px;
+	}
+
+.title span {
+	font-size: 59px;
+	}
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	width: 220px;
+	height: 60px;
+	color: #2e2a1b;
+	display: block;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	}
+.intro {
+	width: 390px;
+	padding-bottom: 20px;
+	color: white;
+	}
+.main_img {
+	margin-top: 60px;
+	}	
+.btn:hover {
+	color: #fff;
+	background: #dbaf00;
+	}
+
+.offer {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 130px;
+}
+
+
+.container h2 {
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	font-style: bold;
+	color: #201b2d;
+	text-align: center;
+	padding: 110px 0px 70px 0px;
+	}
+
+.freetime {
+	width: 295px;
+	background: url('../img/time.jpg') no-repeat center top;
+	}
+.freetime h3 {
+	font-size: 19px;
+	font-style: bold;
+	padding-top: 75px;
+	text-align: center;
+	}
+.text {
+	font-size: 15px;
+	text-align: center;
+	}
+.travel {
+	background: url('../img/palm.jpg') no-repeat center top;
+}
+.rocket {
+	background: url('../img/rocket.jpg') no-repeat center top;
+}
+.ticket {
+	background: #ecf3f8;
+}
+.dream {
+	font-family: 'Ubuntu', sans-serif;
+	font-style: bold;
+	color: #201b2d;
+	text-align: center;
+	padding: 100px 0px 60px 0px;
+
+}
+.form {
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+
+}
+.form {
+	padding-bottom: 112px;
+}
+.input {
+	width: 345px;
+	height: 50px;
+	background: #fff;
+	border: 1px solid #bbbbbb;
+	padding: 15px 0 20px 15px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+.btnticket {
+	width: 345px;
+	height: 60px;
+	padding: 20px 0 20px 0;
+}
+.footer {
+	background: #164d7a;
+	padding: 20px 0 30px 0;
+}
+.guard {
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+}
+
+/*responcive*/
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+		.container {
+			width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+	.main_img {
+		display: block;
+		height: 641px;
+	}
+	.title, .intro {
+		text-align: center;
+		width: auto;
+	}
+	.btn {
+		width: auto;
+	}
+	.btnticket {
+		width: 345px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+		.container {
+		width: 540px;
+	}
+	.main_img {
+		width: 90%;
+		height: 90%;
+	}
+	.offer {
+		flex-direction: column;
+		align-items: center;
+	}
+	.freetime {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.logo {
+		padding-left: 30px;
+	}
+	.container {
+		width: auto;
+	}
+	.content, .intro, .btn {
+		margin: 0 auto;
+		padding-top: 14px;
+
+	}
+	.btn {
+		width: 300px;
+	}
+	.title h1 {
+		font-size: 15px;
+	}
+	.title span {
+		font-size: 36px;
+
+	}
+	.content {
+		width: auto;
+	}
+	.intro {
+		width: 300px;
+	}
+	.input {
+		width: 300px;
+	}
+	.container h2 {
+		font-size: 24px;
+	}
+}
