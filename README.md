@@ -13,8 +13,6 @@ https://makentosh.github.io/SassMaket/
 
 https://makentosh.github.io/coffee/
 
-https://makentosh.github.io/coffee/
-
 https://makentosh.github.io/upqode/
 
 https://makentosh.github.io/wayuptravel/
